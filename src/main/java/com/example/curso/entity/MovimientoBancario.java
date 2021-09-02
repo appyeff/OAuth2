@@ -18,7 +18,7 @@ public class MovimientoBancario implements Serializable{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	private Long userID;
+	private Long userId;
 	private String importe;
 	private String name;
 	public Long getId() {
@@ -27,11 +27,11 @@ public class MovimientoBancario implements Serializable{
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public Long getUserID() {
-		return userID;
+	public Long getUserId() {
+		return userId;
 	}
-	public void setUserID(Long userID) {
-		this.userID = userID;
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
 	public String getImporte() {
 		return importe;
